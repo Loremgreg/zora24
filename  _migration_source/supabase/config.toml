@@ -1,0 +1,14 @@
+project_id = "pnznxumbrnalgcnoogrs"
+
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+
+[functions.elevenlabs-tts]
+verify_jwt = false
+
+[functions.search-phone-numbers]
+verify_jwt = false
+
+[functions.purchase-phone-number]
+verify_jwt = false

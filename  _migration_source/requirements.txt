@@ -1,0 +1,22 @@
+# Zora24.ai MVP - Requirements
+# Framework principal LiveKit Agents
+livekit-agents[turn-detector]
+
+# Intégrations AI/Voice
+livekit-plugins-openai
+livekit-plugins-deepgram
+livekit-plugins-elevenlabs
+livekit-plugins-silero
+
+# HTTP et utilitaires
+aiohttp>=3.10,<4.0.0
+python-dotenv==1.0.0
+supabase
+
+# Télémétrie optionnelle (Langfuse)
+opentelemetry-api==1.20.0
+opentelemetry-sdk==1.20.0
+opentelemetry-exporter-otlp==1.20.0
+
+# Logging et debugging
+structlog==24.1.0
